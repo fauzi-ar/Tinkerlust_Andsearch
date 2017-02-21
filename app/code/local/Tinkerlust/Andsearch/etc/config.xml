@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Tinkerlust_Andsearch>
+			<version>0.1.0</version>
+		</Tinkerlust_Andsearch>
+	</modules>
+	<global>
+		<models>
+			<catalogsearch_resource>
+		        <rewrite>
+		            <fulltext>Tinkerlust_Andsearch_Model_Resource_Fulltext</fulltext>
+		        </rewrite>
+		    </catalogsearch_resource>
+		</models>
+	</global>
+</config>
